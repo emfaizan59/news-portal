@@ -1,0 +1,61 @@
+.mainHeader{
+    height: 70px;
+    background-color: #3f3f3f;
+    color: white;
+
+}
+.account{
+    margin-top: 15px;
+
+}
+
+.account > div > a {
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+.account a {
+    margin-left: 0px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+
+}
+
+.account a:hover{
+    color : white ;
+    background-color: #555454;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.links{
+    margin-top: 10px;
+
+}
+
+.links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+
+}
+.links a:hover{
+    color : white ;
+    background-color: #555454;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.avatarImg{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -3px;
+}

@@ -1,0 +1,53 @@
+
+span{
+    background-color: rgb(219, 219, 219);
+    font-size: 12px;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 7px;
+    margin-right: 10px;
+    text-align: center;
+    width: fit-content;
+    color: black;
+    
+
+}
+
+.readMore{
+    background-color: #1B7BB3;
+    padding : 10px ;
+    border-radius: 7px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
+  
+     position: absolute;
+     bottom: 10px;
+    right: 10px;
+
+}
+
+.readMore:hover{
+    color: white;
+
+}
+
+
+.spanNews{
+    background-color: rgb(219, 219, 219);
+    font-size: 12px;
+    padding: 3px;
+    font-weight: bold;
+    
+    border-radius: 5px;
+    line-height: 30px;
+    text-align: center;
+    color: black;
+}
+
+.fav{
+    position: absolute;
+     bottom: 10px;
+    left: 10px;
+}

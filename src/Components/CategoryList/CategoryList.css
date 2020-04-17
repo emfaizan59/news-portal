@@ -1,0 +1,19 @@
+.linkHeader{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+    text-decoration-style: none;
+}
+
+.linkHeader:hover {
+    text-decoration: none;
+    color: #1B7BB3;
+    
+}
+
+.activeItem{
+    
+    border-bottom: 3px solid #1B7BB3;
+}
