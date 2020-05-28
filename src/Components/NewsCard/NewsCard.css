@@ -24,7 +24,7 @@ span{
   
      position: absolute;
      bottom: 10px;
-    right: 10px;
+      right: 10px;
 
 }
 
@@ -32,6 +32,24 @@ span{
     color: white;
 
 }
+
+
+.favBottom{
+    background-color: #1B7BB3;
+    padding : 10px ;
+    border-radius: 7px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
+  
+     position: absolute;
+     bottom: 0px;
+    left:  10px;
+
+}
+
+
 
 
 .spanNews{
@@ -46,8 +64,3 @@ span{
     color: black;
 }
 
-.fav{
-    position: absolute;
-     bottom: 10px;
-    left: 10px;
-}

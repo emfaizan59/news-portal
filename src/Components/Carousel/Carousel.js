@@ -6,13 +6,13 @@ import { Grid , Loader} from 'semantic-ui-react';
 const LanguageDetect = require('languagedetect');
 const lngDetector = new LanguageDetect();
 
-const arrayUrl = [ "https://newsapi.org/v2/top-headlines?pageSize=10&category=business&apiKey=8ede2e78e9ad4dd1b744a17218d23def" ,
-                    "https://newsapi.org/v2/top-headlines?pageSize=10&category=entertainment&apiKey=8ede2e78e9ad4dd1b744a17218d23def" ,
-                    "https://newsapi.org/v2/top-headlines?pageSize=10&category=general&apiKey=8ede2e78e9ad4dd1b744a17218d23def" ,
-                    "https://newsapi.org/v2/top-headlines?pageSize=10&category=health&apiKey=8ede2e78e9ad4dd1b744a17218d23def" ,
-                    "https://newsapi.org/v2/top-headlines?pageSize=10&category=science&apiKey=8ede2e78e9ad4dd1b744a17218d23def" ,
-                    "https://newsapi.org/v2/top-headlines?pageSize=10&category=sports&apiKey=8ede2e78e9ad4dd1b744a17218d23def" ,
-                    "https://newsapi.org/v2/top-headlines?pageSize=10&category=technology&apiKey=8ede2e78e9ad4dd1b744a17218d23def" ,
+const arrayUrl = [ "https://newsapi.org/v2/top-headlines?pageSize=20&category=business&apiKey=8ede2e78e9ad4dd1b744a17218d23def" ,
+                    "https://newsapi.org/v2/top-headlines?pageSize=20&category=entertainment&apiKey=8ede2e78e9ad4dd1b744a17218d23def" ,
+                    "https://newsapi.org/v2/top-headlines?pageSize=20&category=general&apiKey=8ede2e78e9ad4dd1b744a17218d23def" ,
+                    "https://newsapi.org/v2/top-headlines?pageSize=20&category=health&apiKey=8ede2e78e9ad4dd1b744a17218d23def" ,
+                    "https://newsapi.org/v2/top-headlines?pageSize=20&category=science&apiKey=8ede2e78e9ad4dd1b744a17218d23def" ,
+                    "https://newsapi.org/v2/top-headlines?pageSize=20&category=sports&apiKey=8ede2e78e9ad4dd1b744a17218d23def" ,
+                    "https://newsapi.org/v2/top-headlines?pageSize=20&category=technology&apiKey=8ede2e78e9ad4dd1b744a17218d23def" ,
                     ]
 
 const dataArray = []
@@ -46,7 +46,7 @@ export default class Carousel extends Component {
           
           // console.log(result.articles)
           
-          for(var i =0 ; i<10 ;i++)
+          for(var i =0 ; i<20 ;i++)
           {
         
               var a = lngDetector.detect( result.articles[i].description !== null && result.articles[i].description !== ""  ? result.articles[i].description : result.articles[i].content    , 1)

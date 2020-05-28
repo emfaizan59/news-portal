@@ -110,13 +110,13 @@ export default class NewsCard extends Component {
 
 <Grid columns={3} stackable={true}  >
 
-<Grid.Row >
+<Grid.Row stretched  >
     
 {arrayList.slice(3,artLength).map((element , i) => (
 
 
 
-<Grid.Column key={i}>
+<Grid.Column key={i} style={{marginTop : '20px'}}>
 <Segment  raised  stackable>
     {/* <Image src={element.urlToImage || '/images/noImage.jpg'} centered style={{height : '250px' , width:'100%' , marginBottom:'10px'}}  /> */}
     <Img src={[element.urlToImage, '/images/noImage.jpg']} style={{height : '250px' , width:'100%' , marginBottom:'10px'}} />
@@ -129,7 +129,7 @@ export default class NewsCard extends Component {
 <p style={{fontSize : '13px' , marginBottom : '50px' }}>{element.description}</p>
  
 <a className="readMore" href = {element.url}>Read More</a>
-<Button animated='vertical' className="fav" color="red" style={{float:"right"}}>
+<Button animated='vertical' className="favBottom" color="red">
   <Button.Content visible>Fav</Button.Content>
   <Button.Content hidden>
     <Icon name='heart' />
